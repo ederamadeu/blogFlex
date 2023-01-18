@@ -1,5 +1,5 @@
-/*cabeçalho*/
-@import "./header.css" /*tipografia*/ @import "./tipografica.css";
+/*reset*/
+@import "./geral.css";
 
-/*reset de pré definições*/
-@import "./reset.css";
+/*Super-info + header +menu*/
+@import "./menu.css";
