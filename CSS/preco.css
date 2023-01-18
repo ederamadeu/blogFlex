@@ -11,7 +11,6 @@
   border: solid 4px white;
   padding: 20px;
   margin: 10px;
-  
 }
 
 .preco-item h2 {
@@ -75,11 +74,15 @@
   text-align: center;
 }
 
-@media(max-width:800px){
-  .preco{
+@media (max-width: 800px) {
+  .preco {
     padding-left: 10px;
     padding-right: 10px;
   }
-}
-  
+  .preco .preco-item:nth-child(3) {
+    order: -2;
+  }
+  .preco .preco-item:nth-child(2) {
+    order: -1;
+  }
 }
