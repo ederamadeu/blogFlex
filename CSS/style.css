@@ -3,3 +3,12 @@
 
 /*Super-info + header +menu*/
 @import "./menu.css";
+
+/*sobre*/
+@import "./sobre.css";
+
+/*produtos*/
+@import "./produtos.css";
+
+/*Preços*/
+@import "./preco.css";
