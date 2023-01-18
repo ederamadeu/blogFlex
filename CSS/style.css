@@ -12,3 +12,9 @@
 
 /*Preços*/
 @import "./preco.css";
+
+/*qualidade*/
+@import "./qualidade.css";
+
+/*Newsletter e Footer*/
+@import "./footer.css";
